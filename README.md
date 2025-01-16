@@ -50,18 +50,17 @@ The database is initialized using the `papers_dataset_domains.csv` file located 
 Here are some example SQL queries you can run in the database:
 
 **Fetch Record ID and Title**  
-Retrieve the `record_id` and `title` of the first 10 entries:
-
-    ```bash
-    SELECT record_id, title FROM papers LIMIT 10;
-    ```
+   Retrieve the `record_id` and `title` of the first 10 entries:
+   ```sql
+   SELECT record_id, title FROM papers LIMIT 10
+   ```
 
 **Filter by Year**
- Retrieve all papers published in a specific year:
-
-    ```bash
-    SELECT * FROM papers WHERE year = 2020;
-    ```
+   
+   Retrieve all papers published in a specific year:
+   ```sql
+   SELECT * FROM papers WHERE year = 2020
+   ```
 
 ## Future Extensions
 This project is designed to be flexible and extensible. Planned extensions include:
