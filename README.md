@@ -51,12 +51,12 @@ Here are some example SQL queries you can run in the database:
 
 **Fetch Record ID and Title**
 Retrieve the record_id and title of the first 10 entries:
-    ``` sql 
+    ``` bash
     SELECT record_id, title FROM papers LIMIT 10;
 
  **Filter by Year**
  Retrieve all papers published in a specific year:
-     ``` sql 
+     ``` bash 
     SELECT * FROM papers WHERE year = 2020;
 
 ## Future Extensions
